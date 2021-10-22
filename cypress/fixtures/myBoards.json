@@ -1,0 +1,6 @@
+{
+	"boardOneTitle": "div:nth-of-type(1) > h1.board_title",
+	"boardTwoTitle": "div:nth-of-type(2) > h1.board_title",
+	"boardThreeTitle": "div:nth-of-type(3) > h1.board_title",
+	"boardFourTitle": "div:nth-of-type(4) > h1.board_title"
+}
