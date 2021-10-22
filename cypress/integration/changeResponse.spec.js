@@ -9,7 +9,6 @@ describe("Network stubbing", () => {
 	// 		expect(intercept.response.body[0].name).to.eq("Izmenjen Board 1");
 	// 	});
 	// });
-
 	// it("Dynamically change parts of the response data", () => {
 	// 	cy.intercept(
 	// 		{
@@ -26,27 +25,24 @@ describe("Network stubbing", () => {
 	// 	);
 	// 	cy.visit("/");
 	// });
-
-	it("Create new Board", () => {
-		cy.request("POST", "/api/boards", {
-			statusCode: 201,
-			name: "NovokreiraniB",
-		});
-		cy.visit("/");
-	});
-
-	it("Create new Board", () => {
-		cy.request("POST", "/api/boards", {
-			statusCode: 201,
-			name: "NB",
-		});
-		cy.visit("/");
-	});
-
-	it("Delete new Board", () => {
-		cy.request("DELETE", "/api/boards", {
-			statusCode: 204,
-		});
-		cy.visit("/");
-	});
+	// it("Create new Board", () => {
+	// 	cy.request("POST", "/api/boards", {
+	// 		statusCode: 201,
+	// 		name: "NovokreiraniB",
+	// 	});
+	// 	cy.visit("/");
+	// });
+	// it("Create new Board", () => {
+	// 	cy.request("POST", "/api/boards", {
+	// 		statusCode: 201,
+	// 		name: "NB",
+	// 	});
+	// 	cy.visit("/");
+	// });
+	// it("Delete new Board", () => {
+	// 	cy.request("DELETE", "/api/boards", {
+	// 		statusCode: 204,
+	// 	});
+	// 	cy.visit("/");
+	// });
 });
