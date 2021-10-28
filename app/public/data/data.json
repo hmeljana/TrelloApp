@@ -1,5 +1,20 @@
 {
-	"boards": [],
-	"users": [],
-	"lists": []
+  "boards": [
+    {
+      "name": "My Board",
+      "user": 1,
+      "id": 49616982877,
+      "starred": false,
+      "created": "2021-10-23"
+    }
+  ],
+  "users": [
+    {
+      "email": "bojana@gmail.com",
+      "password": "$2a$10$duPbISwPZbvLPEzFQgjRwuygxESeamgMe91I6RLdHpEk0W2gX3Eay",
+      "id": 1
+    }
+  ],
+  "lists": [],
+  "tasks": []
 }

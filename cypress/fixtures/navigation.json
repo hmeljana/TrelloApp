@@ -1,0 +1,15 @@
+{
+	"loginMenu": "[data-cy='login-menu']",
+	"usernameInput": "[data-cy='login-email']",
+	"passwordInput": "[data-cy='login-password']",
+	"loginButton": "[data-cy='login']",
+	"loggedInUserMessage": "#loginMessage",
+	"userProfile": "[data-cy='logged-user']",
+	"logoutButton": "#myDropdown",
+	"board": "[data-cy='create-board']",
+	"boardInput": " [data-cy='new-board-input']",
+	"createBoardButton": "[data-cy='new-board-create']",
+	"boardItem": "[data-cy='board-item']",
+	"star": "[data-cy='star']",
+	"favoriteBoards": "[data-cy='favorite-boards']"
+}
